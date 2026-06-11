@@ -1,0 +1,66 @@
+{
+  "name": "CommunityPost",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "author_name": {
+      "type": "string"
+    },
+    "author_email": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "crypto-basics",
+        "defi",
+        "us-crypto",
+        "wealth-strategy",
+        "old-world",
+        "general"
+      ],
+      "default": "general"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending"
+    },
+    "moderator_notes": {
+      "type": "string"
+    },
+    "ai_flag_reason": {
+      "type": "string"
+    },
+    "ai_score": {
+      "type": "number"
+    },
+    "upvotes": {
+      "type": "number",
+      "default": 0
+    },
+    "reply_count": {
+      "type": "number",
+      "default": 0
+    },
+    "is_pinned": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "title",
+    "content",
+    "author_name",
+    "author_email"
+  ]
+}

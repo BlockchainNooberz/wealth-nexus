@@ -1,0 +1,32 @@
+{
+  "name": "NewsletterSubscriber",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "unsubscribed"
+      ],
+      "default": "active"
+    },
+    "tier": {
+      "type": "string",
+      "enum": [
+        "free",
+        "premium"
+      ],
+      "default": "free"
+    }
+  },
+  "required": [
+    "email"
+  ]
+}
