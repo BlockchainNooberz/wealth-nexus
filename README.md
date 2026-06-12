@@ -1,39 +1,38 @@
-**Welcome to your Base44 project** 
+# Wealth Nexus 💎🌐
 
-**About**
+> Unified wealth intelligence platform for ultra-high-net-worth individuals and family offices
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+Wealth Nexus aggregates, analyzes, and optimizes complex multi-asset portfolios for the world's wealthiest individuals and the family offices that serve them. It provides a single source of truth for net worth, asset allocation, tax optimization, and generational wealth planning.
 
-This project contains everything you need to run your app locally.
+## Features
+- 🗺️ **Net Worth Command Center** — aggregate all assets (public equities, private equity, real estate, crypto, art, collectibles) in one dashboard
+- 📊 **Multi-Asset Allocation Engine** — optimize across asset classes with custom risk/return targets and liquidity constraints
+- 🏠 **Real Estate Portfolio Manager** — track properties, rental income, valuations, and mortgage structures
+- 🌍 **Global Tax Optimization** — multi-jurisdiction tax planning with scenario modeling for residency and structure changes
+- 🔐 **Family Governance Tools** — family constitution management, next-gen education tracking, and succession planning
+- 🤝 **Advisor Collaboration Portal** — secure workspace for CPAs, attorneys, investment advisors, and trustees
 
-**Edit the code in your local development environment**
+## Tech Stack
+- **Frontend:** React / Base44 UI
+- **Backend:** Base44 entity system with full row-level security
+- **Integrations:** Plaid (bank/brokerage), Zillow API, crypto wallets, private equity fund portals
+- **AI:** Net worth forecasting, tax scenario modeling, and wealth report generation
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+## Target Users
+- Family offices managing $50M+ in assets
+- Ultra-high-net-worth individuals
+- Multi-family office platforms
+- Private bank wealth management teams
 
-**Prerequisites:** 
-
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
-
+## Getting Started
+```bash
+git clone https://github.com/BlockchainNooberz/wealth-nexus
+cd wealth-nexus
+npm install
+npm run dev
 ```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
-
-Run the app: `npm run dev`
-
-**Publish your changes**
-
-Open [Base44.com](http://Base44.com) and click on Publish.
-
-**Docs & Support**
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+## About
+Built by **Andrew Elston** — wealth technology developer specializing in family office infrastructure.
+- GitHub: [BlockchainNooberz](https://github.com/BlockchainNooberz)
+- Contact: andrewelston177@gmail.com
